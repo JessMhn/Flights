@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043EB41829F685FA0057BE5B /* Quicksand_Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 043EB41729F685F90057BE5B /* Quicksand_Book.otf */; };
+		043EB41A29F686EA0057BE5B /* Quicksand_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 043EB41929F686EA0057BE5B /* Quicksand_Bold.otf */; };
 		048D601929F3C63700950C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D601829F3C63700950C22 /* AppDelegate.swift */; };
 		048D601B29F3C63700950C22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D601A29F3C63700950C22 /* SceneDelegate.swift */; };
 		048D601D29F3C63700950C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D601C29F3C63700950C22 /* ViewController.swift */; };
 		048D602029F3C63700950C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048D601E29F3C63700950C22 /* Main.storyboard */; };
 		048D602229F3C63A00950C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048D602129F3C63A00950C22 /* Assets.xcassets */; };
 		048D602529F3C63A00950C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048D602329F3C63A00950C22 /* LaunchScreen.storyboard */; };
+		048F26E729F91FA500959FBE /* FligthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F26E629F91FA500959FBE /* FligthManager.swift */; };
+		048F26EC29F9467300959FBE /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F26EB29F9467300959FBE /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043EB41729F685F90057BE5B /* Quicksand_Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Book.otf; sourceTree = "<group>"; };
+		043EB41929F686EA0057BE5B /* Quicksand_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Bold.otf; sourceTree = "<group>"; };
 		048D601529F3C63700950C22 /* Tunisair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tunisair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048D601829F3C63700950C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048D601A29F3C63700950C22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		048D602129F3C63A00950C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048D602429F3C63A00950C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048D602629F3C63A00950C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048F26E629F91FA500959FBE /* FligthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FligthManager.swift; sourceTree = "<group>"; };
+		048F26EB29F9467300959FBE /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		048D601729F3C63700950C22 /* Tunisair */ = {
 			isa = PBXGroup;
 			children = (
+				048F26EA29F9465A00959FBE /* Extensions */,
 				048D601829F3C63700950C22 /* AppDelegate.swift */,
 				048D601A29F3C63700950C22 /* SceneDelegate.swift */,
 				048D601C29F3C63700950C22 /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				048D602129F3C63A00950C22 /* Assets.xcassets */,
 				048D602329F3C63A00950C22 /* LaunchScreen.storyboard */,
 				048D602629F3C63A00950C22 /* Info.plist */,
+				043EB41729F685F90057BE5B /* Quicksand_Book.otf */,
+				043EB41929F686EA0057BE5B /* Quicksand_Bold.otf */,
+				048F26E629F91FA500959FBE /* FligthManager.swift */,
 			);
 			path = Tunisair;
+			sourceTree = "<group>";
+		};
+		048F26EA29F9465A00959FBE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				048F26EB29F9467300959FBE /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +147,8 @@
 			files = (
 				048D602529F3C63A00950C22 /* LaunchScreen.storyboard in Resources */,
 				048D602229F3C63A00950C22 /* Assets.xcassets in Resources */,
+				043EB41A29F686EA0057BE5B /* Quicksand_Bold.otf in Resources */,
+				043EB41829F685FA0057BE5B /* Quicksand_Book.otf in Resources */,
 				048D602029F3C63700950C22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				048D601D29F3C63700950C22 /* ViewController.swift in Sources */,
+				048F26EC29F9467300959FBE /* UIViewExtensions.swift in Sources */,
 				048D601929F3C63700950C22 /* AppDelegate.swift in Sources */,
 				048D601B29F3C63700950C22 /* SceneDelegate.swift in Sources */,
+				048F26E729F91FA500959FBE /* FligthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
